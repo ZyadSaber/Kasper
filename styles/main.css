@@ -581,9 +581,37 @@ header nav .toggle-menu {
     flex-basis: 50%;
   }
 }
-@media (min-width: 991px) {
+@media (min-width: 992px) {
   .stats .container .box {
     flex-basis: 25%;
   }
 }
+.stats .container .box i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2021;
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
+  margin: 0 auto 30px;
+}
+.stats .container .box .number {
+  font-size: 41px;
+  font-weight: bold;
+  margin: 0 0 20px;
+}
+.stats .container .box p {
+  font-size: 18px;
+}
 /* End Stats */
+/* Start Skills */
+.our-skills {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+}
+/* End Skills */
